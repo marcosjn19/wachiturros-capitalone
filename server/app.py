@@ -11,6 +11,7 @@ cors = CORS( app, origins = '*' )
 def index(id = 0):
     return render_template("index.html")
 generalData = None
+
 def genUserMessage ():
     global userMessage
     userMessage = "Analiza las finanzas de una persona tomando en cuenta que su cuenta de ahorros tiene $300, su credito es de $100 y tiene una deuda de $500."

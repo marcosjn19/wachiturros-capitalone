@@ -10,9 +10,9 @@ function App() {
   const fetchAPI = async () => {
     //const response = fetch("/api/users").then((r)=>r.json())
     //const response = await axios.get("127.0.0.1:5555/api/users")
-    const response = await axios.get("/api/users")
-    console.log(response)
-    console.log(response.data)
+    //const response = await axios.get("/api/users")
+    //console.log(response)
+    //console.log(response.data)
   }
 
   useEffect(() => {
