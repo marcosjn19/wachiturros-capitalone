@@ -1,0 +1,241 @@
+body {
+    background-color: white;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: max-content;
+    width: 100vw;
+    background: linear-gradient(180deg, #00EAFF, #1E4AFC);
+    box-sizing: border-box;
+    padding-top: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: none;
+    margin: auto;
+  }
+  
+  .eagle-image {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 120px;
+  }
+  
+  .eagle-image::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    width: 800px;
+    height: 800px;
+    z-index: 0;
+  }
+  
+  .eagle-image img {
+    padding-bottom: 30px;
+    width: 350px;
+    height: 300px;
+    z-index: 1;
+  }
+  
+  /* Balance card */
+  .balance-card {
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 34vh;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .balance-info h2 {
+    margin: auto;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .balance {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    color: #1174ff;
+    margin: auto;
+  }
+  
+  /* Progress Bar */
+  .progress-container {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
+  }
+  
+  /* Límite disponible */
+  .progress-limit {
+    background-color: #00bcd4;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+  }
+  
+  /* Saldo a pagar */
+  .progress-debt {
+    background-color: #ff4444;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+  }
+  
+  /* Saldo actual */
+  .progress-current {
+    background-color: #36f46f;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+  }
+  
+  /* Saldo a meses */
+  .progress-months {
+    background-color: #ffbb33;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+  }
+  
+  /* Limit Info */
+  .limit-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Legend for colors */
+  .legend {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .legend-item {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+  }
+  
+  .color-box {
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+  }
+  
+  /* Color Boxes for Legend */
+  .color-box.limit {
+    background-color: #00bcd4;
+  }
+  
+  .color-box.debt {
+    background-color: #ff4444;
+  }
+  
+  .color-box.current {
+    background-color: #36f46f;
+  }
+  
+  .color-box.months {
+    background-color: #ffbb33;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card-container {
+      width: 90%;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .eagle-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .eagle-image::before {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .balance-info h2 {
+      font-size: 16px;
+    }
+  
+    .balance {
+      font-size: 32px;
+    }
+  
+    .progress-bar {
+      height: 10px;
+    }
+  
+    .legend {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .legend-item {
+      margin-bottom: 5px;
+    }
+  }
+  
+  /* Estilos para el nav y el logo */
+  nav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+  

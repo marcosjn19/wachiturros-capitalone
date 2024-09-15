@@ -1,0 +1,10 @@
+.container-Meses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
+    margin: auto;
+    width: fit-content;
+    margin-top: 1vh;
+}

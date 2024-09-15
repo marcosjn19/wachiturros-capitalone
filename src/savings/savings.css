@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    color: black;
+ }
+ /* Estilos generales */
+ #root {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 5px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   /* Asegura que ocupe el 100% de la altura de la pantalla */
+ }
+ 
+ /* Estilos específicos de los "huevitos" */
+ .savings-app {
+   text-align: center;
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .savings-title {
+   color: #1e90ff;
+   font-size: 24px;
+   margin-bottom: 20px;
+ }
+ 
+ .savings-container {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: wrap;
+ 
+ }
+ 
+ .egg-container {
+   text-align: center;
+   margin: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .egg-placeholder {
+   width: 60px;
+   height: 60px;
+   background-color: #eee;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+ 
+ .progress-bar {
+   width: 100px;
+   height: 10px;
+   background-color: #ccc;
+   border-radius: 5px;
+   margin: 10px auto;
+   position: relative;
+ }
+ 
+ .progress {
+   height: 100%;
+   border-radius: 5px;
+   background-color: #4caf50;
+ }
+ 
+ .add-egg-button {
+   background-color: #f0f0f0;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 20px;
+   color: black;
+ }
+ 
+ .add-egg-button:hover {
+   background-color: #dcdcdc;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .pagination-buttons {
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 20px;
+ }
+ 
+ .pagination-buttons button {
+   background-color: #f0f0f0;
+   color: black;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .pagination-buttons button:disabled {
+   background-color: #e0e0e0;
+   cursor: not-allowed;
+ }
+ 
+ .pagination-buttons span {
+   font-size: 16px;
+   margin: 0 10px;
+ }
+ .egg-icon {
+   width: 90px;
+   height: 90px;
+   margin-bottom: 10px;
+ }
+ 

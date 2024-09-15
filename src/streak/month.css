@@ -1,0 +1,31 @@
+.container-mes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 10vh;
+    background-color: green;
+    overflow: hidden;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    border-radius: 3vw;
+    margin-right: 3vw;
+    width: 25vw;
+}
+
+.fondo-mes {
+    width: 100%;
+    height: 7vh;
+    overflow: hidden;
+}
+
+.iconoStr {
+    margin:auto;
+    margin-left: 3vw;
+    margin-top: 1vh;
+}
+
+.container-mes h3 {
+    margin: auto;
+    width: min-content;
+    margin-bottom: 1vh;
+}
