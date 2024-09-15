@@ -1,0 +1,30 @@
+:root {
+    --contraste1: #D9D9D9;
+    --contrste2:  #2056FF;
+}
+
+.cont-menu {
+    display: flex;
+    margin-right: 1vh;
+    align-items: end ;
+    width: 90vw;
+    margin-left: 30vw;
+    margin-top: 2vh;
+}
+
+.cont-menu button {
+    font-size: 2.5vh;
+    margin-left: 2.8vw;
+    border-radius: 1.8vh;
+    padding: 1vh;
+    width: 30vw;
+    font-weight: 600;
+}
+
+.btn-contraste1 {
+    background-color: var(--contraste1);
+}
+
+.btn-contraste2 {
+    background-color: var(--contrste2);
+}

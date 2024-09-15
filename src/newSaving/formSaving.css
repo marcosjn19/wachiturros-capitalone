@@ -1,0 +1,47 @@
+:root {
+    --blancoCont: #F5F1F1;
+    --rosaCont:   #F4D7D3;
+}
+
+.cont-newSaving-input {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 1vh;
+}
+
+.container-Input {
+    width: 90vw;
+    background-color: var(--blancoCont);
+    margin: auto;
+    padding-bottom: 1vh;
+    border-radius: 3vh;
+    margin-top: 0.8vh;
+}   
+
+.container-Input h3 {
+    margin-left: 1.3vh;
+}
+
+.container-Input input{
+    background-color: var(--rosaCont);
+    margin-left: 2vh;
+    border-style: hidden;
+    font-size: 2.2vh;
+    border-radius: 2vh;
+    outline: rgba(0, 0, 0, 0);
+    padding: 1vh;
+    width: 30vw;
+}
+
+.container-Input select{
+    background-color: var(--rosaCont);
+    margin-left: 2vh;
+    font-size: 2.2vh;
+    border-radius: 1.3vh;
+    width: 30vw;
+    outline: rgba(0, 0, 0, 0);
+    padding: 0.7vh;
+}

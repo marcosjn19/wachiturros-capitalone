@@ -1,0 +1,27 @@
+.cont-head { 
+    background: linear-gradient(180deg, rgba(0,234,255,1) 0%, rgba(30,74,252,1) 100%);
+    width: 100vw;
+    height: 50vh;
+    border-bottom-left-radius:  10vw;
+    border-bottom-right-radius: 10vw;
+    border-style: hidden;
+    vertical-align: middle;
+}
+
+.name-Saving {
+    margin-top:  2vh;
+    margin-left: 2vh;
+    font-size: 2vh;
+    background-color: rgba(127, 128, 233, 0.739);
+    color: black;
+    border-style: hidden;
+    border-radius: 2.3vh;
+    text-align: left;
+    padding: 1.7vh;
+}
+
+.eggSvg {
+    margin: auto;
+    width: fit-content;
+    margin-top: 5vh;
+}
